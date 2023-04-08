@@ -25,27 +25,34 @@
       <div class="container header-nav">
         <p class="header-text">Ми в соціальних мережах:</p>
         <ul class="list-networks">
-          <li><a href="#" class="">
-            <svg class="networks-icon-media" width="40px" height="40px">
-              <use href="./images/SVG/symbol-defs.svg#icon-telgram"></use>
-            </svg>
-          </a></li>
-          <li><a href="#" class="">
-            <svg class="networks-icon-media" width="40px" height="40px">
-              <use href="./images/SVG/symbol-defs.svg#icon-facebook"></use>
-            </svg>
-          </a></li>
-          <li><a href="#" class="">
-            <svg class="networks-icon-media" width="40px" height="40px">
-              <use href="./images/SVG/symbol-defs.svg#icon-instagram"></use>
-            </svg>
-          </a></li>
+          <li>
+            <a href="#" class="">
+              <svg class="networks-icon-media" width="40px" height="40px">
+                <use href="./images/SVG/symbol-defs.svg#icon-telgram"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="">
+              <svg class="networks-icon-media" width="40px" height="40px">
+                <use href="./images/SVG/symbol-defs.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="">
+              <svg class="networks-icon-media" width="40px" height="40px">
+                <use href="./images/SVG/symbol-defs.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
         </ul>
         <a class="header-text" href="tel:(099) 111 22 33">
           <svg class="networks-icon-media" width="40px" height="40px">
-          <use href="./images/SVG/symbol-defs.svg#icon-smartphone"></use>
-        </svg> 
-        (099) 111 22 33</a>
+            <use href="./images/SVG/symbol-defs.svg#icon-smartphone"></use>
+          </svg>
+          (099) 111 22 33</a
+        >
         <nav>
           <ul class="site-nav-title">
             <li class=""><a class="site-nav-title" href="#"></a>ГОЛОВНА</li>
@@ -57,28 +64,28 @@
         </nav>
       </div>
 
-      <div class="container">
-        <ul>
-          <li>Дивани</li>
-          <li>ліжка</li>
-          <li>Крісла</li>
-          <li>комоди</li>
-          <li>шафи</li>
-          <li>Кухня</li>
+      <div class="container list-goods">
+        <ul class="list-goods">
+          <li class="title-goods">Дивани</li>
+          <li class="title-goods">Ліжка</li>
+          <li class="title-goods">Крісла</li>
+          <li class="title-goods">Комоди</li>
+          <li class="title-goods">Шафи</li>
+          <li class="title-goods">Кухня</li>
         </ul>
 
         <a class="logo" href="./index.html"
           ><span class="logo-color">F</span>urniture.test</a
         >
 
-        <a href="">Кошик</a>
-        <button>Замовити дзвінок</button>
+        <a href="" class="title-goods basket">Кошик</a>
+        <button class="button">Замовити дзвінок</button>
       </div>
     </header>
 
     <main>
       <section class="headline">
-        <div class="container">
+        <div class="container description">
           <h1 class="headline-title">Новинка!</h1>
           <h2 class="title">Ліжко Ornella</h2>
           <p class="text">Це новий рівень комфортного сну</p>
@@ -91,7 +98,7 @@
 
       <section>
         <div class="container">
-          <h2>Наші переваги</h2>
+          <h2 class="title-section">Наші переваги</h2>
           <ul>
             <li>
               <h3>Меблі преміум класу</h3>
@@ -99,6 +106,7 @@
                 За 14 років на ринку меблів для дому ми стали надійними
                 партнерами на ринку Вінницької області та України
               </p>
+              <img src="./images/kitchen.jpg" alt="kitchen" />
             </li>
             <li>
               <h3>Надійність</h3>
@@ -106,6 +114,7 @@
                 За 14 років на ринку меблів для дому ми стали надійними
                 партнерами на ринку Вінницької області та України
               </p>
+              <img src="./images/reliability.jpg" alt="reliability" />
             </li>
             <li>
               <h3>Безкоштовна доставка</h3>
@@ -113,6 +122,7 @@
                 За 14 років на ринку меблів для дому ми стали надійними
                 партнерами на ринку Вінницької області та України
               </p>
+              <img src="./images/truck.jpg" alt="truck" />
             </li>
           </ul>
         </div>
@@ -120,12 +130,12 @@
 
       <section>
         <div class="container">
-          <h2>Категорії товарів</h2>
+          <h2 class="title-section">Категорії товарів</h2>
           <ul>
             <li><h4>Дивани</h4></li>
             <li><h4>Ліжка</h4></li>
             <li><h4>Крісла</h4></li>
-            <li><h4>комоди</h4></li>
+            <li><h4>Комоди</h4></li>
             <li><h4>Шафи</h4></li>
             <li><h4>Кухня</h4></li>
           </ul>
@@ -136,72 +146,77 @@
         <div class="container">
           <ul>
             <li>
-              <img src="" alt="" />
+              <img src="./images/ramona.jpg" alt="bed-ramona" />
               <h4>Ліжко Рамона</h4>
             </li>
             <li>
-              <img src="" alt="" />
+              <img src="./images/chester.jpg" alt="bed-chester" />
               <h4>Ліжко Честер</h4>
             </li>
             <li>
-              <img src="" alt="" />
+              <img src="./images/venezia.jpg" alt="bed-venezia" />
               <h4>Ліжко Венеція люкс</h4>
             </li>
             <li>
-              <img src="" alt="" />
+              <img src="./images/empire.jpg" alt="bed-empire" />
               <h4>Ліжко Імперія</h4>
             </li>
             <li>
-              <img src="" alt="" />
+              <img src="./images/adele.jpg" alt="bed-adele" />
               <h4>Ліжко Адель</h4>
             </li>
             <li>
-              <img src="" alt="" />
+              <img src="./images/atlant.jpg" alt="bed-atlant" />
               <h4>Ліжко Атлант</h4>
             </li>
           </ul>
-          <button>В каталог</button>
+          <button class="button button-catalog">В каталог</button>
+        </div>
+      </section>
+
+      <section>
+        <div class="container about-us">
+          <h2 class="title-section">Про нас</h2>
+          <div class="background-paragraph">
+            <p>
+              <span class="logo-title">"Furniture"</span>– "Lorem ipsum dolor
+              sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+              ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+              voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+              officia deserunt mollit anim id est laborum."
+            </p>
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum."
+            </p>
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure
+            </p>
+          </div>
         </div>
       </section>
 
       <section>
         <div class="container">
-          <h2>Про нас</h2>
-          <p>
-            <span>"Furniture"</span>– "Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo
-            consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-            cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum."
-          </p>
-          <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum."
-          </p>
-          <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure
-          </p>
-        </div>
-      </section>
-
-      <section>
-        <div class="container">
-          <h2>Залишились питання?</h2>
+          <h2 class="title-section">Залишились питання?</h2>
+          <div>
+            <img src="./images/question.jpg" alt="question" />
+          </div>
           <div>
             <h4>Замовте консультацію</h4>
 
-            <button>ВІдправити</button>
+            <button class="button">Вiдправити</button>
             <p>
               Залиште заявку або телефонуйте за номером (099) 111 22 33, і наш
               менеджер звяжеться з вами для кваліфікованої консультації.
@@ -212,38 +227,70 @@
     </main>
 
     <footer>
-      <div class="container">
-        <a class="logo" href="./index.html"
-          ><span class="logo-color">F</span>urniture.test</a
-        >
-        <ul>
-          <li><h4>Дивани</h4></li>
-          <li><h4>Ліжка</h4></li>
-          <li><h4>Крісла</h4></li>
-          <li><h4>Шафи</h4></li>
-          <li><h4>Кухнi</h4></li>
-          <li><h4>комоди</h4></li>
-        </ul>
-        <ul>
-          <li><a href="#"></a>АКЦІЇ</li>
-          <li><a href="#"></a>ДОСТАВКА ТА ОПЛАТА</li>
-          <li><a href="#"></a>ПРО НАС</li>
-          <li><a href="#"></a>КОНТАКТИ</li>
-        </ul>
+      <div class="container nav-footer">
+        <div class="footer-nav">
+          <a class="logo-footer" href="./index.html"
+            ><span class="logo-color">F</span>urniture.test</a
+          >
+          <div class="footer-list">
+          <div class="footer-list">
+          <ul>
+            <li><a href="#" class="title-footer"><h4>ДИВАНИ</h4></a></li>
+            <li><a href="#" class="title-footer"><h4>ЛІЖКА</h4></a></li>
+            <li><a href="#" class="title-footer"><h4>КРІСЛА</h4></a></li>
+            <li><a href="#" class="title-footer"><h4>ШАФИ</h4></a></li>
+            <li><a href="#" class="title-footer"><h4>КУХНІ</h4></a></li>
+            <li><a href="#" class="title-footer"><h4>КОМОДИ</h4></a></li>
+          </ul>
+        </div>
 
-        <a href="">TEST</a>
-        <p>Пн-Пт, з 10 до 18</p>
-        <a href="tel:(099) 111 22 33">(099) 111 22 33</a>
-        <a href="tel:(099) 222 33 44">(099) 111 22 33</a>
-        <p>Ми в соціальних мережах:</p>
-        <ul>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-        </ul>
-        <p>© ТОВ Furniture, працюємо з 2006 року</p>
+          <div class="footer-list">
+          <ul>
+            <li><a href="#" class="title-footer"><h4>АКЦІЇ</h4></a></li>
+            <li><a href="#" class="title-footer"><h4>ДОСТАВКА ТА ОПЛАТА</h4></a></li>
+            <li><a href="#" class="title-footer"><h4>ПРО НАС</h4></a></li>
+            <li><a href="#" class="title-footer"><h4>КОНТАКТИ</h4></a></li>
+          </ul>
+        </div>
+
+          <div class="footer-list">
+          <a href="#" class="map">TEST</a>
+          <p class="map" >Пн-Пт, з 10 до 18</p>
+          <a class="tel" href="tel:(099) 111 22 33">(099) 111 22 33</a>
+          <a class="tel" href="tel:(099) 222 33 44">(099) 111 22 33</a>
+          <p class="map">Ми в соціальних мережах:</p>
+          <ul class="list-networks">
+            <li>
+              <a href="#" class="">
+                <svg class="networks-icon-media-footer" width="40px" height="40px">
+                  <use href="./images/SVG/symbol-defs.svg#icon-telgram"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="">
+                <svg class="networks-icon-media-footer" width="40px" height="40px">
+                  <use href="./images/SVG/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="#" class="">
+                <svg class="networks-icon-media-footer" width="40px" height="40px">
+                  <use href="./images/SVG/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <img src="" alt="" />
+          <p class="company">© ТОВ Furniture, працюємо з 2006 року</p>
+        </div>
+
+        <div>
+          <img src="./images/footer.jpg" alt="room" />
+        </div>
+      </div>
     </footer>
   </body>
 </html>
