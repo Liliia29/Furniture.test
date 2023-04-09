@@ -87,11 +87,8 @@ margin: 0 auto;
     color: #1E2E36;
 }
 
-.site-nav-title{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+.site-nav-title a{
+    display: block;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -99,10 +96,20 @@ margin: 0 auto;
     line-height: 1.2;
     text-decoration: none;
     color: var(--primary-text-color);
+    padding-top: 18px;
+    padding-bottom: 19px;
+    position: relative;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
 
-.site-nav-title li {
-    margin-left: 15px;
+.site-nav-title{
+    display: flex;
+    justify-content: end;
+}
+
+.site-nav-title li:not(:last-child){
+    margin-right: 15px;
 }
 
 .list-goods{
@@ -290,6 +297,7 @@ background: url(./images/main.jpg)
 
 .networks-icon-media-footer{
     fill: var(--title-text-color);
+
 }
 
 .company{
@@ -307,4 +315,26 @@ background: url(./images/main.jpg)
 
 .footer-list{
     display: flex;
+}
+
+.webpage::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: #404BBF;
+    border-radius: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.icon-mobile{
+    display: flex;
+    background-color: var(--primary-text-color);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
 }
